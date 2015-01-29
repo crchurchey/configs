@@ -1,6 +1,6 @@
 {
     // sym or hard link this file to ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings
-    // # ln -s ./sublime-user-settings ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings
+    // # ln -s <full-path to configs dir>/sublime-user-settings ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings
 
 
     // Font stuff

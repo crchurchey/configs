@@ -1,5 +1,5 @@
 " sym or hard link this file to ~/.vimrc
-" # ln -s ./vimrc ~/.vimrc
+" # ln -s <full-path to configs dir>/vimrc ~/.vimrc
 
 set ts=4
 set sw=4
