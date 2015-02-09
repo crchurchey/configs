@@ -11,6 +11,7 @@ set smartcase
 set smartindent
 set ruler
 set showmatch
+set nowrap
 
 filetype on
 filetype indent on
