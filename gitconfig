@@ -1,0 +1,11 @@
+# sym or hard link this file to ~/.gitconfig
+# # ln -s <full-path to configs dir>/gitconfig ~/.gitconfig
+
+[user]
+	email = chris.churchey@gmail.com
+	name = Chris R. Churchey
+[push]
+	default = simple
+[alias]
+	incoming = "!git remote update -p; git log ..@{u}"
+	outgoing = log @{u}..
