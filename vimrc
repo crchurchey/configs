@@ -1,5 +1,4 @@
-" sym or hard link this file to ~/.vimrc
-" # ln -s <full-path to configs dir>/vimrc ~/.vimrc
+source $VIM/vimrc
 
 set ts=4
 set sw=4
@@ -11,10 +10,5 @@ set smartcase
 set smartindent
 set ruler
 set showmatch
-set nowrap
 
-filetype on
-filetype indent on
-
-set background=dark
-
+colorscheme slate
