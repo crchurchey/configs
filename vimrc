@@ -10,5 +10,10 @@ set smartcase
 set smartindent
 set ruler
 set showmatch
+set number
+set cursorline
 
 colorscheme slate
+
+map <left> :bp<cr>
+map <right> :bn<cr>
