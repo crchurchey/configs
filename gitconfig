@@ -4,7 +4,13 @@
 [user]
 	email = chris.churchey@gmail.com
 	name = Chris R. Churchey
-	
+
+[core]
+	editor = vim
+	whitespace = tab-in-indent,tabwidth=4
+	autocrlf = auto
+	fileMode = false
+
 [push]
 	default = simple
 	
