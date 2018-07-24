@@ -2,10 +2,43 @@
 # # ln -s <full-path to configs dir>/gitconfig ~/.gitconfig
 
 [user]
-	email = chris.churchey@gmail.com
-	name = Chris R. Churchey
+    email = chris.churchey@gmail.com
+    name = Chris R. Churchey
+
+[core]
+    editor = vim
+    whitespace = tab-in-indent,tabwidth=4
+    autocrlf = input
+    fileMode = false
+
 [push]
-	default = simple
+    default = simple
+    
 [alias]
-	incoming = "!git remote update -p; git log ..@{u}"
-	outgoing = log @{u}..
+    incoming = "!git remote update -p; git log ..@{u}"
+    outgoing = log @{u}..
+    st = status
+    ci = commit
+    cm = commit -m
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lolu = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%qn, %ar,%Creset' --abbrev-commit
+    lolau = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%qn, %ar,%Creset' --abbrev-commit
+    ls = ls-files
+    # Show ignored files
+    ign = status --ignored
+    
+[branch]
+    # When branching off a remote branch setup the local branch to track the remote one
+    autosetupmerge = true
+    
+[diff]
+    # basic copy detection
+    renames = copies
+    
+    mnemonicprefix = true
