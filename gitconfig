@@ -27,8 +27,8 @@
     lg = log -p
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-    lolu = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%qn, %ar,%Creset' --abbrev-commit
-    lolau = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%qn, %ar,%Creset' --abbrev-commit
+    lolu = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%an, %ar,%Creset' --abbrev-commit
+    lolau = log --graph --decorate --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(green)%an, %ar,%Creset' --abbrev-commit
     ls = ls-files
     # Show ignored files
     ign = status --ignored
